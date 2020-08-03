@@ -1,5 +1,9 @@
 # EddieBotMap
 
+![screenshot](https://user-images.githubusercontent.com/624760/89235454-1e8d6a00-d5e6-11ea-9c65-8f518b6be785.png)
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
