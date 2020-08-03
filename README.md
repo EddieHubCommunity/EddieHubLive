@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
+## Quick Start
+
+1. Clone the project
+2. Install dependencies by running the command `npm install`
+3. Set up environment variables
+   * Open `/src/environments/environment.ts` add your firebase config
+    ```typescript
+    export const environment = {
+      production: false,
+      firebase: {
+         apiKey: '<your-key>',
+         authDomain: '<your-project-authdomain>',
+         databaseURL: '<your-database-URL>',
+         projectId: '<your-project-id>',
+         storageBucket: '<your-storage-bucket>',
+         messagingSenderId: '<your-messaging-sender-id>'
+      }
+    };
+    ```
+  
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
