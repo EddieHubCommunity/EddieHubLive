@@ -1,22 +1,22 @@
 [
     {
         "username": "eddiejaoude",
-        "roles": [ "TeamEddie" ]
+        "roles": [ "TeamEddie", "Moderator" ]
     },
     {
         "username": "stemount",
-        "roles": [ "TeamEddie" ]
+        "roles": [ "TeamEddie", "Moderator", "High Value", "Sponsor" ]
     },
     {
         "username": "mikeysan",
-        "roles": [ "TeamEddie" ]
+        "roles": [ "TeamEddie", "Moderator", "High Value" ]
     },
     {
         "username": "BOLT04",
-        "roles": [ "TeamEddie" ]
+        "roles": [ "TeamEddie", "Moderator", "High Value" ]
     },
     {
         "username": "praveenscience",
-        "roles": [ "TeamEddie" ]
+        "roles": [ "TeamEddie", "Moderator", "Sponsor" ]
     }
 ]
