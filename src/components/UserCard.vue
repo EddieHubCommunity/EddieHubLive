@@ -5,7 +5,12 @@
       <div class="card-body">
         <h5 class="card-title">{{ user.name }}</h5>
         <p class="card-text">{{ user.bio }}</p>
-        <a :href="user.html_url" class="btn btn-primary">Go somewhere</a>
+        <button
+          @click="$router.push(`/${user.login}`)"
+          class="btn btn-primary"
+        >
+          View Profile
+        </button>
       </div>
     </div>
   </div>

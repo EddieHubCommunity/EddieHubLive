@@ -13,8 +13,8 @@
 </template>
 
 <script>
+import { mapState, mapActions } from 'vuex'
 import UserCard from '@/components/UserCard.vue'
-import users from '@/users.json'
 
 export default {
   name: 'Home',
@@ -22,15 +22,16 @@ export default {
     UserCard
   },
   data () {
-    return {
-      users: users
-    }
+    return {}
   },
-  async mounted () {
-    const requests = []
-    this.users.forEach((user) => requests.push(fetch(`https://api.github.com/users/${user.username}`)))
-    const data = await Promise.all(requests)
-    this.users = await Promise.all(data.map((user) => user.json()))
+  computed: {
+    ...mapState(['users'])
+  },
+  methods: {
+    ...mapActions(['getUsers'])
+  },
+  mounted () {
+    this.getUsers()
   }
 }
 </script>
