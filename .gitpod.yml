@@ -1,5 +1,4 @@
 
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: npm
     init: npm install
@@ -17,3 +16,7 @@ github:
     addCheck: true
     addComment: false
     addBadge: true
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss
