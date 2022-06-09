@@ -1,10 +1,8 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useEffect } from "react";
 
 function Map({ events }) {
-  useEffect(() => console.log(events), [events]);
   return (
     <MapContainer
       style={{ height: "100vh" }}
