@@ -15,7 +15,7 @@ function App() {
   return (
     <main className="flex">
       <div className="w-1/3  flex flex-col gap-2">
-        {events.reverse().map((event) => (
+        {events.map((event) => (
           <EventCard data={event} />
         ))}
       </div>
