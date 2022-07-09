@@ -1,5 +1,6 @@
-import { socket } from "./context/socket";
+import { socket } from "./environment/socket";
 import Map from "./components/map";
+import EventCard from "./components/event-card";
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -13,7 +14,11 @@ function App() {
 
   return (
     <main className="flex">
-      <div className="w-1/3"></div>
+      <div className="w-1/3  flex flex-col gap-2">
+        {events.reverse().map((event) => (
+          <EventCard data={event} />
+        ))}
+      </div>
       <div className="w-2/3">
         <Map events={events} />
       </div>
