@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.0...v0.4.1) (2022-07-10)
+
+
+### Bug Fixes
+
+* serve dep ([4682308](https://github.com/EddieHubCommunity/EddieHubLive/commit/4682308c89431076ea5dd871d2c1d545dd7ee3be))
+
+
+
 # [0.4.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.3.1...v0.4.0) (2022-07-10)
 
 
