@@ -1,5 +1,5 @@
 {
-  "name": "event-livemap",
+  "name": "eddiehub-live",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "start:prod": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
