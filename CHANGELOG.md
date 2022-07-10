@@ -1,3 +1,12 @@
+## [0.4.4](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.3...v0.4.4) (2022-07-10)
+
+
+### Bug Fixes
+
+* kubernetes action ([bcee269](https://github.com/EddieHubCommunity/EddieHubLive/commit/bcee2690057919c4f1b8ca9c5a104c64e60312e7))
+
+
+
 ## [0.4.3](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.2...v0.4.3) (2022-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * deploy to kubernetes ([d8ab1b0](https://github.com/EddieHubCommunity/EddieHubLive/commit/d8ab1b019c584f0dd413e5998339197dee2585af))
-
-
-
-## [0.3.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.3.0...v0.3.1) (2022-07-10)
-
-
-### Bug Fixes
-
-* updated dep versions ([e951a73](https://github.com/EddieHubCommunity/EddieHubLive/commit/e951a73e371992e1b7350f2912c6e18e99a46329))
 
 
 
