@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: live-deployment
+  labels:
+    app: live
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: live
+  template:
+    metadata:
+      labels:
+        app: live
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/eddiehubcommunity/live:latest
+          ports:
+            - containerPort: 5000
