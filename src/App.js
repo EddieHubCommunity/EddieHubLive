@@ -14,7 +14,7 @@ function App() {
 
   return (
     <main className="flex">
-      <div className="w-1/3  flex flex-col gap-2">
+      <div className="w-1/3 overflow-y-scroll h-screen p-2 flex flex-col gap-2">
         {events.map((event) => (
           <EventCard data={event} />
         ))}
