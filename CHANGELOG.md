@@ -1,3 +1,12 @@
+## [0.4.3](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.2...v0.4.3) (2022-07-10)
+
+
+### Bug Fixes
+
+* kubernetes config ([a081494](https://github.com/EddieHubCommunity/EddieHubLive/commit/a0814940d9f6324c7f1c8c95825af9c67c0e8762))
+
+
+
 ## [0.4.2](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.1...v0.4.2) (2022-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * updated dep versions ([e951a73](https://github.com/EddieHubCommunity/EddieHubLive/commit/e951a73e371992e1b7350f2912c6e18e99a46329))
-
-
-
-# [0.3.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.2.0...v0.3.0) (2022-07-10)
-
-
-### Features
-
-* docker container ([17e2ec4](https://github.com/EddieHubCommunity/EddieHubLive/commit/17e2ec4a8d1662d6c27f189673b09d0c8cbd50e6))
 
 
 
