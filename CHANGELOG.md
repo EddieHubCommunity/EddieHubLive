@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.4...v0.5.0) (2022-07-10)
+
+
+### Features
+
+* display events ([08ed19d](https://github.com/EddieHubCommunity/EddieHubLive/commit/08ed19d8ba19fa4f08afa92ce7db192b0e3797d6))
+
+
+
 ## [0.4.4](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.3...v0.4.4) (2022-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * serve dep ([4682308](https://github.com/EddieHubCommunity/EddieHubLive/commit/4682308c89431076ea5dd871d2c1d545dd7ee3be))
-
-
-
-# [0.4.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.3.1...v0.4.0) (2022-07-10)
-
-
-### Features
-
-* deploy to kubernetes ([d8ab1b0](https://github.com/EddieHubCommunity/EddieHubLive/commit/d8ab1b019c584f0dd413e5998339197dee2585af))
 
 
 
