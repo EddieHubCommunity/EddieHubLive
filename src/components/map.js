@@ -19,6 +19,7 @@ function Map({ events }) {
         <>
           <Marker
             icon={L.icon({
+              className: "rounded-full",
               iconUrl: `https://www.github.com/${event.githubUsername._id}.png`,
               popupAnchor: [0, -10],
               iconSize: [40, 40],

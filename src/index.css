@@ -14,3 +14,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer base {
+  :root {
+    --color-primary: #ff5a00;
+  }
+
+  a {
+    @apply underline hover:decoration-transparent transition-all duration-200 delay-[50] underline-offset-2;
+  }
+}
