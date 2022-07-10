@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.3.0...v0.3.1) (2022-07-10)
+
+
+### Bug Fixes
+
+* updated dep versions ([e951a73](https://github.com/EddieHubCommunity/EddieHubLive/commit/e951a73e371992e1b7350f2912c6e18e99a46329))
+
+
+
 # [0.3.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.2.0...v0.3.0) (2022-07-10)
 
 
