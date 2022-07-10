@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: live-deployment
+  name: eddiehub-live-deployment
   labels:
-    app: live
+    app: eddiehub-live
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: live
+      app: eddiehub-live
   template:
     metadata:
       labels:
-        app: live
+        app: eddiehub-live
     spec:
       containers:
         - name: api
