@@ -1,4 +1,13 @@
-# 0.2.0 (2022-07-10)
+# [0.3.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.2.0...v0.3.0) (2022-07-10)
+
+
+### Features
+
+* docker container ([17e2ec4](https://github.com/EddieHubCommunity/EddieHubLive/commit/17e2ec4a8d1662d6c27f189673b09d0c8cbd50e6))
+
+
+
+# [0.2.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/b0adbd4c7283ebfa3f6447c511c9ec0ca1693dae...v0.2.0) (2022-07-10)
 
 
 ### Bug Fixes
