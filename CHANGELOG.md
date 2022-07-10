@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.3.1...v0.4.0) (2022-07-10)
+
+
+### Features
+
+* deploy to kubernetes ([d8ab1b0](https://github.com/EddieHubCommunity/EddieHubLive/commit/d8ab1b019c584f0dd413e5998339197dee2585af))
+
+
+
 ## [0.3.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.3.0...v0.3.1) (2022-07-10)
 
 
