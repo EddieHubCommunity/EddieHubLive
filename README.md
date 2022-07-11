@@ -44,13 +44,14 @@ yarn start
 
 # Project Structure
 
-  ──src
+
+   
     ├── ...
-    ├── components      # Contains all page components (HOCs, elements, etc.)
-    ├── Environments    # Display events
-    ├── App.js          # Renders all component to create the page 
+    ├── components       Contains all page components (HOCs, elements, etc.)
+    ├── Environments     Display events
+    ├── App.js           Renders all component to create the page 
     └──...... 
-    ──package.json    # Contains all dependencies
+    ──package.json     Contains all dependencies
 
 ## Learn More About React, Socket.io and setting up and Leaflet.js 
 
