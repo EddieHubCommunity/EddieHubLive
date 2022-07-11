@@ -20,7 +20,7 @@ function App() {
         ))}
       </div>
       <div className="w-2/3">
-      <Map events={[...new Set(events)]} />
+        <Map events={[...new Set(events)]} />
       </div>
     </main>
   );
