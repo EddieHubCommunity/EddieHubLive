@@ -4,6 +4,8 @@
 
 #### A map showing the location of all project contributors
 
+![](https://user-images.githubusercontent.com/624760/178152726-19ea99dc-d3bd-4423-852f-309ba8f39d11.png)
+
 # Getting Started
 
 Navigate to directory on your machine:
