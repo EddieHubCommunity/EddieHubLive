@@ -1,72 +1,65 @@
-![](https://user-images.githubusercontent.com/624760/178152726-19ea99dc-d3bd-4423-852f-309ba8f39d11.png)
+# EddieHubLive
 
-# Getting Started with Create React App
+### EddieHubLive codebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### A map showing the location of all project contributors
 
-## Available Scripts
+# Getting Started
 
-In the project directory, you can run:
+Navigate to directory on your machine:
 
-### `npm start`
+```bash
+cd folder/to/clone-into/
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/EddieHubCommunity/EddieHubLive
+```
 
-### `npm test`
+Navigate to repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd ./EddieHubLive
+```
 
-### `npm run build`
+```bash
+npm i
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+# or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the Sever:
 
-### `npm run eject`
+```bash
+npm start
+# or
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ──src
+    ├── ...
+    ├── components      # Contains all page components (HOCs, elements, etc.)
+    ├── Environments    # Display events
+    ├── App.js          # Renders all component to create the page 
+    └──...... 
+    ──package.json    # Contains all dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Learn More About React, Socket.io and setting up and Leaflet.js 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To learn more about Vue and Mongodb, take a look at the following resources:
 
-## Learn More
+- [React Documentation](https://reactjs.org/docs/getting-started.html) - Learn about React and it's installation.
+- [Leaflet Documentation](https://leafletjs.com/reference.html) - Learn about Leaflet.js and it's usage
+- [Socket.io Documentation](https://socket.io/docs/v4/) - Learn about Socket.io and it's usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can check out [the React's GitHub repository](https://github.com/facebook/react/) - your feedback and contributions are welcome!
+You can check out [the Leaflet's GitHub repository](https://github.com/Leaflet/Leaflet) - your feedback and contributions are welcome!
+You can check out [the Socket.io's GitHub repository](https://github.com/socketio/socket.io) - your feedback and contributions are welcome!
