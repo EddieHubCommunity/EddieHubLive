@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
-      setEvents([...events, data]);
+      setEvents([data, ...events]);
     });
   });
 
