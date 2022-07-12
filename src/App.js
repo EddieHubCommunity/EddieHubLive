@@ -17,8 +17,6 @@ function App() {
       ) {
         setUniqueUsers([...uniqueUsers, data]);
       }
-      console.log("events: "+events)
-      console.log(uniqueUsers)
     });
   });
 
