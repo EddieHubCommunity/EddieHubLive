@@ -5,10 +5,20 @@ import React, { useEffect, useState } from "react";
 
 function App() {
   const [events, setEvents] = useState([]);
+  const [uniqueUsers, setUniqueUsers] = useState([]);
   useEffect(() => {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
       setEvents([...events, data]);
+      if (
+        !uniqueUsers.find(
+          (user) => user.githubUsername._id === data.githubUsername._id
+        )
+      ) {
+        setUniqueUsers([...uniqueUsers, data]);
+      }
+      console.log("events: "+events)
+      console.log(uniqueUsers)
     });
   });
 
@@ -20,7 +30,7 @@ function App() {
         ))}
       </div>
       <div className="w-2/3">
-        <Map events={[...new Set(events)]} />
+        <Map events={uniqueUsers} />
       </div>
     </main>
   );
