@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.1...v0.5.2) (2022-07-12)
+
+
+### Bug Fixes
+
+* multiple image for same user on map  ([#40](https://github.com/EddieHubCommunity/EddieHubLive/issues/40)) ([a5fd93d](https://github.com/EddieHubCommunity/EddieHubLive/commit/a5fd93d81ae2688ced019964ac6dfc762243c06a))
+
+
+
 ## [0.5.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.0...v0.5.1) (2022-07-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kubernetes config ([a081494](https://github.com/EddieHubCommunity/EddieHubLive/commit/a0814940d9f6324c7f1c8c95825af9c67c0e8762))
-
-
-
-## [0.4.2](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.1...v0.4.2) (2022-07-10)
-
-
-### Bug Fixes
-
-* serve version ([e456c3a](https://github.com/EddieHubCommunity/EddieHubLive/commit/e456c3ad44e58eac4336c2b17b0fa4a0262a4acd))
 
 
 
