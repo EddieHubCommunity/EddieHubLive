@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
-      setEvents([...events, data]);
+      setEvents([data, ...events]);
       if (
         !uniqueUsers.find(
           (user) => user.githubUsername._id === data.githubUsername._id
