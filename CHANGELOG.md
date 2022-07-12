@@ -1,3 +1,12 @@
+## [0.5.3](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.2...v0.5.3) (2022-07-12)
+
+
+### Bug Fixes
+
+* latest event should appear at the top ([#29](https://github.com/EddieHubCommunity/EddieHubLive/issues/29)) ([#38](https://github.com/EddieHubCommunity/EddieHubLive/issues/38)) ([27328dc](https://github.com/EddieHubCommunity/EddieHubLive/commit/27328dcf0ce9fd3353cb93b83f44136f784efb63))
+
+
+
 ## [0.5.2](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.1...v0.5.2) (2022-07-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kubernetes action ([bcee269](https://github.com/EddieHubCommunity/EddieHubLive/commit/bcee2690057919c4f1b8ca9c5a104c64e60312e7))
-
-
-
-## [0.4.3](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.2...v0.4.3) (2022-07-10)
-
-
-### Bug Fixes
-
-* kubernetes config ([a081494](https://github.com/EddieHubCommunity/EddieHubLive/commit/a0814940d9f6324c7f1c8c95825af9c67c0e8762))
 
 
 
