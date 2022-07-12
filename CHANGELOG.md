@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.0...v0.5.1) (2022-07-11)
+
+
+### Bug Fixes
+
+* multiple pics for same user on map ([#37](https://github.com/EddieHubCommunity/EddieHubLive/issues/37)) ([179db96](https://github.com/EddieHubCommunity/EddieHubLive/commit/179db9661f7c4012b63cdc78e6c75b9484ba534f))
+
+
+
 # [0.5.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.4...v0.5.0) (2022-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * serve version ([e456c3a](https://github.com/EddieHubCommunity/EddieHubLive/commit/e456c3ad44e58eac4336c2b17b0fa4a0262a4acd))
-
-
-
-## [0.4.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.0...v0.4.1) (2022-07-10)
-
-
-### Bug Fixes
-
-* serve dep ([4682308](https://github.com/EddieHubCommunity/EddieHubLive/commit/4682308c89431076ea5dd871d2c1d545dd7ee3be))
 
 
 
