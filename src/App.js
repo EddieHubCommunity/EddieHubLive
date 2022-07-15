@@ -6,9 +6,14 @@ import React, { useEffect, useState } from "react";
 function App() {
   const [events, setEvents] = useState([]);
   const [uniqueUsers, setUniqueUsers] = useState([]);
+  const ignoreEvents = ["workflowRun", "checkSuite", "checkRun"];
+
   useEffect(() => {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
+      if(ignoreEvents.includes(data.event))
+        return;
+
       setEvents([data, ...events]);
       if (
         !uniqueUsers.find(
