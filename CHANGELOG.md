@@ -1,3 +1,12 @@
+## [0.5.4](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.3...v0.5.4) (2022-07-15)
+
+
+### Bug Fixes
+
+* filtering out specific events ([#43](https://github.com/EddieHubCommunity/EddieHubLive/issues/43)) ([2276929](https://github.com/EddieHubCommunity/EddieHubLive/commit/22769293ab9d575d39378d4a0a2e0871678619fe))
+
+
+
 ## [0.5.3](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.2...v0.5.3) (2022-07-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * display events ([08ed19d](https://github.com/EddieHubCommunity/EddieHubLive/commit/08ed19d8ba19fa4f08afa92ce7db192b0e3797d6))
-
-
-
-## [0.4.4](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.3...v0.4.4) (2022-07-10)
-
-
-### Bug Fixes
-
-* kubernetes action ([bcee269](https://github.com/EddieHubCommunity/EddieHubLive/commit/bcee2690057919c4f1b8ca9c5a104c64e60312e7))
 
 
 
