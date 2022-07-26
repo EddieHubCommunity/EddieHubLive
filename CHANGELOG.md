@@ -1,3 +1,12 @@
+## [0.5.5](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.4...v0.5.5) (2022-07-26)
+
+
+### Bug Fixes
+
+* updated version of k8s ([bf73cb6](https://github.com/EddieHubCommunity/EddieHubLive/commit/bf73cb6996a02a49ba0d749a227a8a180b7992ae))
+
+
+
 ## [0.5.4](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.3...v0.5.4) (2022-07-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * multiple pics for same user on map ([#37](https://github.com/EddieHubCommunity/EddieHubLive/issues/37)) ([179db96](https://github.com/EddieHubCommunity/EddieHubLive/commit/179db9661f7c4012b63cdc78e6c75b9484ba534f))
-
-
-
-# [0.5.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.4.4...v0.5.0) (2022-07-10)
-
-
-### Features
-
-* display events ([08ed19d](https://github.com/EddieHubCommunity/EddieHubLive/commit/08ed19d8ba19fa4f08afa92ce7db192b0e3797d6))
 
 
 
