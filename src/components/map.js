@@ -1,12 +1,12 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import * as L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import Version from './version';
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import * as L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import Version from "./version";
 
 function Map({ events }) {
   return (
     <MapContainer
-      style={{ height: '100vh' }}
+      style={{ height: "100vh" }}
       center={[51.505, -0.09]}
       zoom={3}
       zoomControl={true}
@@ -20,7 +20,7 @@ function Map({ events }) {
         <>
           <Marker
             icon={L.icon({
-              className: 'rounded-full',
+              className: "rounded-full",
               iconUrl: `https://www.github.com/${event.githubUsername._id}.png`,
               popupAnchor: [0, -10],
               iconSize: [40, 40],
