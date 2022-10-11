@@ -1,3 +1,12 @@
+## [0.5.8](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.7...v0.5.8) (2022-10-11)
+
+
+### Bug Fixes
+
+* page title ([#50](https://github.com/EddieHubCommunity/EddieHubLive/issues/50)) ([cd0bb0f](https://github.com/EddieHubCommunity/EddieHubLive/commit/cd0bb0f32e1263c66364df7c3e78884636812e20))
+
+
+
 ## [0.5.7](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.6...v0.5.7) (2022-10-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * filtering out specific events ([#43](https://github.com/EddieHubCommunity/EddieHubLive/issues/43)) ([2276929](https://github.com/EddieHubCommunity/EddieHubLive/commit/22769293ab9d575d39378d4a0a2e0871678619fe))
-
-
-
-## [0.5.3](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.2...v0.5.3) (2022-07-12)
-
-
-### Bug Fixes
-
-* latest event should appear at the top ([#29](https://github.com/EddieHubCommunity/EddieHubLive/issues/29)) ([#38](https://github.com/EddieHubCommunity/EddieHubLive/issues/38)) ([27328dc](https://github.com/EddieHubCommunity/EddieHubLive/commit/27328dcf0ce9fd3353cb93b83f44136f784efb63))
 
 
 
