@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.8...v0.6.0) (2022-10-13)
+
+
+### Features
+
+* display deployed version ([#48](https://github.com/EddieHubCommunity/EddieHubLive/issues/48)) ([a5e36b8](https://github.com/EddieHubCommunity/EddieHubLive/commit/a5e36b80ec49e1145d784c4ec0250b2b8008af52)), closes [#44](https://github.com/EddieHubCommunity/EddieHubLive/issues/44)
+
+
+
 ## [0.5.8](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.7...v0.5.8) (2022-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * updated version of k8s ([bf73cb6](https://github.com/EddieHubCommunity/EddieHubLive/commit/bf73cb6996a02a49ba0d749a227a8a180b7992ae))
-
-
-
-## [0.5.4](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.3...v0.5.4) (2022-07-15)
-
-
-### Bug Fixes
-
-* filtering out specific events ([#43](https://github.com/EddieHubCommunity/EddieHubLive/issues/43)) ([2276929](https://github.com/EddieHubCommunity/EddieHubLive/commit/22769293ab9d575d39378d4a0a2e0871678619fe))
 
 
 
