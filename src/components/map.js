@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import Version from "./version";
 
 function Map({ events }) {
   return (
@@ -15,7 +16,7 @@ function Map({ events }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {events.map((event) => (
+      {events.map(event => (
         <>
           <Marker
             icon={L.icon({
@@ -37,6 +38,7 @@ function Map({ events }) {
           </Marker>
         </>
       ))}
+      <Version />
     </MapContainer>
   );
 }
