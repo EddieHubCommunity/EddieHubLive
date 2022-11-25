@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.6.0...v0.6.1) (2022-11-25)
+
+
+### Bug Fixes
+
+* update cards layout ([#55](https://github.com/EddieHubCommunity/EddieHubLive/issues/55)) ([185dd38](https://github.com/EddieHubCommunity/EddieHubLive/commit/185dd3852c85367bfab34d544e5046b1ec5dfb1e))
+
+
+
 # [0.6.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.8...v0.6.0) (2022-10-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * title ([#47](https://github.com/EddieHubCommunity/EddieHubLive/issues/47)) ([79c2acf](https://github.com/EddieHubCommunity/EddieHubLive/commit/79c2acf0e36511146eb010f33578a0b4a7672127))
-
-
-
-## [0.5.5](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.4...v0.5.5) (2022-07-26)
-
-
-### Bug Fixes
-
-* updated version of k8s ([bf73cb6](https://github.com/EddieHubCommunity/EddieHubLive/commit/bf73cb6996a02a49ba0d749a227a8a180b7992ae))
 
 
 
