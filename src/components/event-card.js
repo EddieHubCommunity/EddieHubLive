@@ -1,8 +1,10 @@
 import React from "react";
+import FormatTime from "./convert-time";
 
 function EventCard({ data }) {
   return (
     <div className="w-full p-4 flex text-white flex-col bg-primary">
+      <div className="flex justify-end">{FormatTime(data.updatedAt)}</div>
       <div className="font-semibold flex justify-between">
         <div className="rounded-full">
           <a rel="noreferrer" target="_blank" href={data.githubUserURL}>
