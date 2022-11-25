@@ -16,7 +16,7 @@ function Map({ events }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {events.map(event => (
+      {events.map((event) => (
         <>
           <Marker
             icon={L.icon({
@@ -27,10 +27,7 @@ function Map({ events }) {
               iconAnchor: [20, 20],
             })}
             key={event.id}
-            position={[
-              event.githubUsername.location.lat,
-              event.githubUsername.location.long,
-            ]}
+            position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           >
             <Popup>
               {event.githubUsername._id}: {event.event}

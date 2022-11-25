@@ -30,6 +30,7 @@ cd ./EddieHubLive
 npm i
 
 ```
+
 # or
 
 ```bash
@@ -46,16 +47,14 @@ yarn start
 
 # Project Structure
 
-
-   
     ├── ...
     ├── components       Contains all page components (HOCs, elements, etc.)
     ├── Environments     Display events
-    ├── App.js           Renders all component to create the page 
-    └──...... 
+    ├── App.js           Renders all component to create the page
+    └──......
     ──package.json     Contains all dependencies
 
-## Learn More About React, Socket.io and setting up and Leaflet.js 
+## Learn More About React, Socket.io and setting up and Leaflet.js
 
 To learn more about Vue and Mongodb, take a look at the following resources:
 

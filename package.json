@@ -20,7 +20,9 @@
     "build": "react-scripts build",
     "start:prod": "serve -s build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -42,10 +44,19 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.5",
+    "lint-staged": "^13.0.4",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.0.24"
+    "prettier": "^2.8.0",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.0.24",
+    "husky": "^8.0.0"
   },
   "overrides": {
     "autoprefixer": "10.4.5"
+  },
+  "lint-staged": {
+    "*.{cjs,js,ts,css,scss,svelte}": [
+      "prettier --write --ignore-path .gitignore --plugin-search-dir=."
+    ]
   }
 }
