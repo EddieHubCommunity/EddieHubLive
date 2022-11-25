@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        bg: "var(--off-white)",
         primary: "var(--color-primary)",
       },
     },

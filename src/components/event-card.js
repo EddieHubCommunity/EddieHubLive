@@ -3,7 +3,7 @@ import FormatTime from "./convert-time";
 
 function EventCard({ data }) {
   return (
-    <div className="w-full p-4 flex text-white flex-col bg-primary">
+    <div className="w-full p-4 flex shadow-lg rounded-lg  border-l-8 border-primary flex-col bg-white">
       <div className="flex justify-end">{FormatTime(data.updatedAt)}</div>
       <div className="font-semibold flex justify-between">
         <div className="rounded-full">
