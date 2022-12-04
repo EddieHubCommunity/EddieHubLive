@@ -5,7 +5,6 @@ import "leaflet/dist/leaflet.css";
 import Version from "./version";
 
 function Map({ events }) {
-  console.log(events)
   return (
     <MapContainer
       style={{ height: "100vh" }}
