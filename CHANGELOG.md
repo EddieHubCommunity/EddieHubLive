@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.7.0...v0.8.0) (2022-12-05)
+
+
+### Features
+
+* added time to event cards ([#57](https://github.com/EddieHubCommunity/EddieHubLive/issues/57)) ([e2e53ba](https://github.com/EddieHubCommunity/EddieHubLive/commit/e2e53baa31369962bede3ab511f1d6eb5854abc4))
+
+
+
 # [0.7.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.6.1...v0.7.0) (2022-12-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * page title ([#50](https://github.com/EddieHubCommunity/EddieHubLive/issues/50)) ([cd0bb0f](https://github.com/EddieHubCommunity/EddieHubLive/commit/cd0bb0f32e1263c66364df7c3e78884636812e20))
-
-
-
-## [0.5.7](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.6...v0.5.7) (2022-10-09)
-
-
-### Bug Fixes
-
-* removed deploy ([4b82d66](https://github.com/EddieHubCommunity/EddieHubLive/commit/4b82d66ebc78f414a7c8bc096f26728d338c4ca3))
 
 
 
