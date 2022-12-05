@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.6.1...v0.7.0) (2022-12-05)
+
+
+### Features
+
+* leaflet marker cluster ([#65](https://github.com/EddieHubCommunity/EddieHubLive/issues/65)) ([0bddb67](https://github.com/EddieHubCommunity/EddieHubLive/commit/0bddb676381b819d7b9e817ba30b5fb732dd2427))
+
+
+
 ## [0.6.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.6.0...v0.6.1) (2022-11-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed deploy ([4b82d66](https://github.com/EddieHubCommunity/EddieHubLive/commit/4b82d66ebc78f414a7c8bc096f26728d338c4ca3))
-
-
-
-## [0.5.6](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.5...v0.5.6) (2022-10-09)
-
-
-### Bug Fixes
-
-* title ([#47](https://github.com/EddieHubCommunity/EddieHubLive/issues/47)) ([79c2acf](https://github.com/EddieHubCommunity/EddieHubLive/commit/79c2acf0e36511146eb010f33578a0b4a7672127))
 
 
 
