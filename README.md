@@ -45,6 +45,12 @@ npm start
 yarn start
 ```
 
+## How to trigger new data to the feed
+
+1. Open an issue in Support to be added to the API: [Add me to the API](https://github.com/EddieHubCommunity/support/issues/new?assignees=&labels=EddieHub-API-add&template=add-api-user.yml&title=Please+add+me+to+the+EddieHub+API)
+2. Start the project with npm or yarn if you have not already
+3. In the EddieHubLive repository, edit an existing comment of yours to trigger a new github event which will show up in the map. You may edit as many times as you like to create more data. If you do not have any comments yet, you may add one and then edit for more data. Please do not add a new comment each time test data is required as this will create spam.
+
 # Project Structure
 
     ├── ...
