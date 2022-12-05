@@ -11,15 +11,10 @@ function App() {
   useEffect(() => {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
-      if(ignoreEvents.includes(data.event))
-        return;
+      if (ignoreEvents.includes(data.event)) return;
 
       setEvents([data, ...events]);
-      if (
-        !uniqueUsers.find(
-          (user) => user.githubUsername._id === data.githubUsername._id
-        )
-      ) {
+      if (!uniqueUsers.find((user) => user.githubUsername._id === data.githubUsername._id)) {
         setUniqueUsers([...uniqueUsers, data]);
       }
     });
@@ -27,7 +22,7 @@ function App() {
 
   return (
     <main className="flex">
-      <div className="w-1/3 overflow-y-scroll h-screen p-2 flex flex-col gap-2">
+      <div className="flex h-screen w-1/3 flex-col gap-2 overflow-y-scroll p-2">
         {events.map((event) => (
           <EventCard data={event} />
         ))}
