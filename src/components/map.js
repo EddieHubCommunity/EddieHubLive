@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import Version from "./version";
+import PanToMarker from "./zoom-to-marker";
 
 function Map({ events }) {
   return (
@@ -39,6 +40,7 @@ function Map({ events }) {
         ))}
       </MarkerClusterGroup>
       <Version />
+    <PanToMarker />
     </MapContainer>
   );
 }
