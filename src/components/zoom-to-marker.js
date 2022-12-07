@@ -1,14 +1,14 @@
 import { useMap } from "react-leaflet"
 
 export default function PanToMarker(position) {
-    const map = useMap()
-    const currentLocation = map.getCenter()
-    const location = position.position ? position.position : [51.505, -0.09]
+    const map = useMap();
+    const currentLocation = map.getCenter();
+    const newLocation = position.position ? position.position : currentLocation;
 
-        map.flyTo( location,10 );
+        map.flyTo( newLocation,10 );
         setTimeout(() => {
-            map.flyTo( [51.505, -0.09],3 )
-          }, "8000") 
+            map.flyTo( currentLocation ,3 );
+          }, "8000");
     
-    return null
+    return null;
   }
