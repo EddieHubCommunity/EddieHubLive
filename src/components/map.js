@@ -36,11 +36,11 @@ function Map({ events }) {
                 {event.githubUsername._id}: {event.event}
               </Popup>
             </Marker>
+            <PanToMarker position={[event.githubUsername.location.lat, event.githubUsername.location.long]} />
           </>
         ))}
       </MarkerClusterGroup>
       <Version />
-    <PanToMarker />
     </MapContainer>
   );
 }
