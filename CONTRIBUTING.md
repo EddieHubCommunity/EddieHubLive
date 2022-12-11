@@ -6,7 +6,9 @@ By participating in this project, you agree to abide by the [Code Of Conduct](ht
 
 ## How to Contribute
 
-To get an overview of the project, read the [README](README.md).
+To get an overview of the project and learn how to set up your local dev environment, read the [README](README.md). This will include the important preliminary step necessary to enable map data and save yourself from any headaches.
+
+Once you are ready to start contributing...
 
 1. Take a look at the existing [Issues](https://github.com/EddieHubCommunity/EddieHubLive/issues) or [create a new issue](https://github.com/EddieHubCommunity/EddieHubLive/issues/new/choose)!
 2. [Fork the Repo](https://github.com/EddieHubCommunity/EddieHubLive/fork). 
@@ -15,4 +17,4 @@ To get an overview of the project, read the [README](README.md).
 5. Create a **[Pull Request](https://github.com/EddieHubCommunity/EddieHubLive/compare)** (_PR_), which will be reviewed and given suggestions for improvements by the community.
 6. Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
-## You did it! 🥳
+## Thank you 💛
