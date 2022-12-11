@@ -1,5 +1,5 @@
 export default function Version() {
-  const version = process.env.REACT_APP_VERSION;
+  const version = import.meta.env.VITE_REACT_APP_VERSION;
   return (
     <div className="leaflet-controlcontainer">
       <div className="leaflet-top leaflet-right">

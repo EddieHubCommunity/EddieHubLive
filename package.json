@@ -2,6 +2,7 @@
   "name": "eddiehub-live",
   "version": "0.8.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -11,18 +12,15 @@
     "react-dom": "^18.1.0",
     "react-leaflet": "^4.0.0",
     "react-leaflet-cluster": "^2.0.0",
-    "react-scripts": "5.0.1",
     "serve": "^12.0.1",
-    "socket.io-client": "^4.5.1",
-    "web-vitals": "^2.1.4"
+    "socket.io-client": "^4.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "start:prod": "serve -s build",
-    "test": "react-scripts test",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-    "eject": "react-scripts eject",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -44,13 +42,15 @@
     ]
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "10.4.5",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.4",
     "postcss": "^8.4.14",
     "prettier": "^2.8.0",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "vite": "^4.0.0"
   },
   "overrides": {
     "autoprefixer": "10.4.5"
