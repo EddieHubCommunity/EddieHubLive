@@ -19,7 +19,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "start:prod": "serve -s build",
+    "start:prod": "serve -s dist",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "prepare": "husky install"
   },
