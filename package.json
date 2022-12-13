@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
     "leaflet": "^1.8.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -15,10 +16,12 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "10.4.5",
+    "eslint": "^8.29.0",
+    "eslint-plugin-react": "^7.31.11",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.4",
     "postcss": "^8.4.14",
-    "prettier": "^2.8.0",
+    "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.0.24",
     "vite": "^4.0.0"
@@ -30,7 +33,7 @@
     "start:prod": "serve -s dist",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "prepare": "husky install",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore src/**/*.js src/**/*.jsx"
   },
   "browserslist": {
     "production": [

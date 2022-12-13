@@ -1,3 +1,4 @@
+import React from "react"
 export default function Version() {
   const version = import.meta.env.VITE_REACT_APP_VERSION;
   return (
