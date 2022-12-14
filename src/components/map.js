@@ -8,7 +8,7 @@ import PanToMarker from "./zoom-to-marker";
 function Map({ events }) {
   return (
     <MapContainer
-      style={{ height: "100vh" }}
+      style={{ height: "100vh", zIndex: 10 }}
       center={[51.505, -0.09]}
       zoom={3}
       zoomControl={true}
@@ -36,7 +36,9 @@ function Map({ events }) {
                 {event.githubUsername._id}: {event.event}
               </Popup>
             </Marker>
-            <PanToMarker position={[event.githubUsername.location.lat, event.githubUsername.location.long]} />
+            <PanToMarker
+              position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
+            />
           </>
         ))}
       </MarkerClusterGroup>
