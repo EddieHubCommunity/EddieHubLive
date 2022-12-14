@@ -13,10 +13,6 @@ export default function Header() {
                 <span className="absolute inset-0 rounded-full shadow-inner" aria-hidden="true" />
               </div>
             </div>
-            {/*
-            Use vertical padding to simulate center alignment when both lines of text are one line,
-            but preserve the same layout if the text wraps without making the image jump around.
-          */}
             <div>
               <h1 className="text-2xl font-bold text-gray-50">EddieHubLive</h1>
               <p className="text-sm font-medium text-gray-300">
