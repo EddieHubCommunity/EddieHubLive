@@ -1,6 +1,7 @@
 import { socket } from "./environment/socket";
 import Map from "./components/map";
 import EventCard from "./components/event-card";
+import Header from "./components/header";
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -21,16 +22,19 @@ function App() {
   });
 
   return (
-    <main className="flex">
-      <div className="flex h-screen w-1/3 flex-col gap-2 overflow-y-scroll p-2">
-        {events.map((event) => (
-          <EventCard data={event} />
-        ))}
-      </div>
-      <div className="w-2/3">
-        <Map events={uniqueUsers} />
-      </div>
-    </main>
+    <div className="flex min-h-screen flex-col">
+      <Header />
+      <main className="flex">
+        <div className="flex h-screen w-1/3 flex-col gap-2 overflow-y-scroll p-2">
+          {events.map((event) => (
+            <EventCard data={event} />
+          ))}
+        </div>
+        <div className="w-2/3">
+          <Map events={uniqueUsers} />
+        </div>
+      </main>
+    </div>
   );
 }
 
