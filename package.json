@@ -1,9 +1,11 @@
 {
   "name": "eddiehub-live",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "private": true,
   "type": "module",
   "dependencies": {
+    "@headlessui/react": "^1.7.5",
+    "@heroicons/react": "^2.0.13",
     "eslint-config-prettier": "^8.5.0",
     "leaflet": "^1.8.0",
     "prop-types": "^15.8.1",
