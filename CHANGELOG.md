@@ -1,3 +1,17 @@
+# [1.0.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.8.1...v1.0.0) (2022-12-16)
+
+
+### Code Refactoring
+
+* migration to vite ([#74](https://github.com/EddieHubCommunity/EddieHubLive/issues/74)) ([f77cb9e](https://github.com/EddieHubCommunity/EddieHubLive/commit/f77cb9ea27cc28234ead768c7dffe1b1f7f16056))
+
+
+### BREAKING CHANGES
+
+* migration to vite
+
+
+
 ## [0.8.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.8.0...v0.8.1) (2022-12-14)
 
 
@@ -31,15 +45,6 @@
 ### Bug Fixes
 
 * update cards layout ([#55](https://github.com/EddieHubCommunity/EddieHubLive/issues/55)) ([185dd38](https://github.com/EddieHubCommunity/EddieHubLive/commit/185dd3852c85367bfab34d544e5046b1ec5dfb1e))
-
-
-
-# [0.6.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.5.8...v0.6.0) (2022-10-13)
-
-
-### Features
-
-* display deployed version ([#48](https://github.com/EddieHubCommunity/EddieHubLive/issues/48)) ([a5e36b8](https://github.com/EddieHubCommunity/EddieHubLive/commit/a5e36b80ec49e1145d784c4ec0250b2b8008af52)), closes [#44](https://github.com/EddieHubCommunity/EddieHubLive/issues/44)
 
 
 
