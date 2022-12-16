@@ -8,7 +8,7 @@
 
 # Getting Started
 
-This map shows contributions via websocket and you must be added to the EddieHub API to see your data on the map. Please keep reading for details on how to trigger data events to the map prior to beginning to work on any issues that are related to the data feed. 
+This map shows contributions via websocket and you must be added to the EddieHub API to see your data on the map. Please keep reading for details on how to trigger data events to the map prior to beginning to work on any issues that are related to the data feed.
 
 ## How to trigger new data to the feed
 
@@ -34,24 +34,24 @@ Navigate to repository:
 cd ./EddieHubLive
 ```
 
+Install the dependencies
+
 ```bash
 npm i
-
 ```
 
-# or
+Start the development Sever:
 
 ```bash
-yarn install
+npm run dev
 ```
 
-Start the Sever:
+Build & production preview
 
 ```bash
-npm start
-# or
-yarn start
+npm run build && npm run preview
 ```
+
 # Project Structure
 
     ├── ...

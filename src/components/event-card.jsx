@@ -1,5 +1,6 @@
 import React from "react";
 import FormatTime from "./convert-time";
+import PropTypes from "prop-types";
 
 function EventCard({ data }) {
   return (
@@ -24,5 +25,28 @@ function EventCard({ data }) {
     </div>
   );
 }
+
+EventCard.propTypes = {
+  data: {
+    githubUsername: {
+      _id: PropTypes.string,
+      location: {
+        provided: PropTypes.string,
+        lat: PropTypes.number,
+        long: PropTypes.number,
+      },
+      createdAt: PropTypes.string,
+      updatedAt: PropTypes.string,
+      events: {
+        workflowDispatch: PropTypes.number,
+      },
+    },
+    event: PropTypes.string,
+    _id: PropTypes.string,
+    createdAt: PropTypes.string,
+    updatedAt: PropTypes.string,
+    __v: PropTypes.number,
+  },
+};
 
 export default EventCard;

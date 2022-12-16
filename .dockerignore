@@ -4,3 +4,4 @@ build
 .git
 .gitignore
 Dockerfile
+dist
