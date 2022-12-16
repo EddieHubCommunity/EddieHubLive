@@ -12,7 +12,6 @@ function App() {
   useEffect(() => {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
-      console.log(data);
       if (ignoreEvents.includes(data.event)) return;
       setEvents([data, ...events]);
       if (!uniqueUsers.find((user) => user.githubUsername._id === data.githubUsername._id)) {
