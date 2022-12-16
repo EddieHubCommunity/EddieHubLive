@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v1.0.0...v1.0.1) (2022-12-16)
+
+
+### Bug Fixes
+
+* socket event ([#81](https://github.com/EddieHubCommunity/EddieHubLive/issues/81)) ([f7f6fbc](https://github.com/EddieHubCommunity/EddieHubLive/commit/f7f6fbc4f49b3a4a7cbe80d24d033cb658d3ac38))
+
+
+
 # [1.0.0](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.8.1...v1.0.0) (2022-12-16)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * leaflet marker cluster ([#65](https://github.com/EddieHubCommunity/EddieHubLive/issues/65)) ([0bddb67](https://github.com/EddieHubCommunity/EddieHubLive/commit/0bddb676381b819d7b9e817ba30b5fb732dd2427))
-
-
-
-## [0.6.1](https://github.com/EddieHubCommunity/EddieHubLive/compare/v0.6.0...v0.6.1) (2022-11-25)
-
-
-### Bug Fixes
-
-* update cards layout ([#55](https://github.com/EddieHubCommunity/EddieHubLive/issues/55)) ([185dd38](https://github.com/EddieHubCommunity/EddieHubLive/commit/185dd3852c85367bfab34d544e5046b1ec5dfb1e))
 
 
 
