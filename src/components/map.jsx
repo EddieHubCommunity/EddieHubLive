@@ -8,6 +8,7 @@ import PanToMarker from "./zoom-to-marker";
 import PropTypes from "prop-types";
 
 function Map({ events }) {
+  console.log(events)
   return (
     <MapContainer
       style={{ height: "100vh", zIndex: 10 }}
@@ -22,7 +23,7 @@ function Map({ events }) {
       />
       {/* <MarkerClusterGroup chunkedLoading> */}
       {events.map((event) => (
-        <>
+        <div key={event._id}>
           <Marker
             icon={L.icon({
               className: "rounded-full",
@@ -31,7 +32,6 @@ function Map({ events }) {
               iconSize: [40, 40],
               iconAnchor: [20, 20],
             })}
-            key={event.id}
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           >
             <Popup>
@@ -41,7 +41,7 @@ function Map({ events }) {
           <PanToMarker
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           />
-        </>
+        </div>
       ))}
       {/* </MarkerClusterGroup> */}
       <Version />
@@ -52,19 +52,19 @@ function Map({ events }) {
 Map.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.shape({
-      githubUsername: {
+      githubUsername: PropTypes.shape ({
         _id: PropTypes.string,
-        location: {
+        location: PropTypes.shape ({
           provided: PropTypes.string,
           lat: PropTypes.number,
           long: PropTypes.number,
-        },
+        }),
         createdAt: PropTypes.string,
         updatedAt: PropTypes.string,
-        events: {
+        events: PropTypes.shape({
           workflowDispatch: PropTypes.number,
-        },
-      },
+        }),
+      }),
       event: PropTypes.string,
       _id: PropTypes.string,
       createdAt: PropTypes.string,
