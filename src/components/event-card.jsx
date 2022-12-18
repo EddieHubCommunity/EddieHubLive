@@ -27,26 +27,26 @@ function EventCard({ data }) {
 }
 
 EventCard.propTypes = {
-  data: {
-    githubUsername: {
+  data: PropTypes.shape ({
+    githubUsername: PropTypes.shape ({
       _id: PropTypes.string,
-      location: {
+      location: PropTypes.shape ({
         provided: PropTypes.string,
         lat: PropTypes.number,
         long: PropTypes.number,
-      },
+      }),
       createdAt: PropTypes.string,
       updatedAt: PropTypes.string,
-      events: {
+      events: PropTypes.shape ({
         workflowDispatch: PropTypes.number,
-      },
-    },
+      }),
+    }),
     event: PropTypes.string,
     _id: PropTypes.string,
     createdAt: PropTypes.string,
     updatedAt: PropTypes.string,
     __v: PropTypes.number,
-  },
+  }),
 };
 
 export default EventCard;
