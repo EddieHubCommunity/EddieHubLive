@@ -1,6 +1,7 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import * as L from "leaflet";
+import MarkerCluster from "./marker-cluster";
 import "leaflet/dist/leaflet.css";
 import Version from "./version";
 import PanToMarker from "./zoom-to-marker";
@@ -22,6 +23,7 @@ function Map({ events }) {
       />
       {events.map((event) => (
         <div key={event._id}>
+          <MarkerCluster>
           <Marker
             icon={L.icon({
               className: "rounded-full",
@@ -36,6 +38,7 @@ function Map({ events }) {
               {event.githubUsername._id}: {event.event}
             </Popup>
           </Marker>
+          </MarkerCluster>
           <PanToMarker
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           />
