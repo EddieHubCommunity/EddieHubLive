@@ -1,5 +1,4 @@
 import React from "react";
-import MarkerClusterGroup from "react-leaflet-cluster";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -21,7 +20,6 @@ function Map({ events }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {/* <MarkerClusterGroup chunkedLoading> */}
       {events.map((event) => (
         <div key={event._id}>
           <Marker
@@ -43,7 +41,6 @@ function Map({ events }) {
           />
         </div>
       ))}
-      {/* </MarkerClusterGroup> */}
       <Version />
     </MapContainer>
   );
