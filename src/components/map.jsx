@@ -20,9 +20,9 @@ function Map({ events }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+      <MarkerCluster>
       {events.map((event) => (
         <div key={event._id}>
-          <MarkerCluster>
           <Marker
             icon={L.icon({
               className: "rounded-full",
@@ -37,12 +37,12 @@ function Map({ events }) {
               {event.githubUsername._id}: {event.event}
             </Popup>
           </Marker>
-          </MarkerCluster>
           <PanToMarker
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           />
         </div>
       ))}
+       </MarkerCluster>
       <Version />
     </MapContainer>
   );

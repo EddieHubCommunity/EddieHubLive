@@ -5,6 +5,7 @@ import Header from "./components/header";
 import React, { useEffect, useState } from "react";
 
 function App() {
+
   const [events, setEvents] = useState([]);
   const [uniqueUsers, setUniqueUsers] = useState([]);
   const ignoreEvents = ["workflowRun", "checkSuite", "checkRun"];

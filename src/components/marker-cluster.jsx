@@ -1,6 +1,7 @@
-import L from 'leaflet'
-import { createPathComponent } from '@react-leaflet/core'
-import 'leaflet.markercluster'
+import L from 'leaflet';
+import { createPathComponent } from '@react-leaflet/core';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+import "leaflet/dist/leaflet.css";
 
 function createMarkerCluster({ children: _c, ...props }, context) {
   const clusterProps = {}
