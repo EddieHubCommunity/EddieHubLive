@@ -24,7 +24,7 @@ function App() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex">
-        <div className="flex h-screen w-1/3 flex-col gap-2 overflow-y-scroll p-2">
+        <div className="flex h-screen w-1/3 flex-col gap-2 overflow-auto p-2">
           {events.map((event) => (
             <EventCard key={event} data={event} />
           ))}
