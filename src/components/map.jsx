@@ -1,7 +1,7 @@
 import React from "react";
-import MarkerClusterGroup from "react-leaflet-cluster";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import * as L from "leaflet";
+import MarkerCluster from "./marker-cluster";
 import "leaflet/dist/leaflet.css";
 import Version from "./version";
 import PanToMarker from "./zoom-to-marker";
@@ -20,9 +20,9 @@ function Map({ events }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {/* <MarkerClusterGroup chunkedLoading> */}
+      <MarkerCluster>
       {events.map((event) => (
-        <>
+        <div key={event._id}>
           <Marker
             icon={L.icon({
               className: "rounded-full",
@@ -31,7 +31,6 @@ function Map({ events }) {
               iconSize: [40, 40],
               iconAnchor: [20, 20],
             })}
-            key={event.id}
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           >
             <Popup>
@@ -41,9 +40,9 @@ function Map({ events }) {
           <PanToMarker
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           />
-        </>
+        </div>
       ))}
-      {/* </MarkerClusterGroup> */}
+       </MarkerCluster>
       <Version />
     </MapContainer>
   );
@@ -52,19 +51,19 @@ function Map({ events }) {
 Map.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.shape({
-      githubUsername: {
+      githubUsername: PropTypes.shape ({
         _id: PropTypes.string,
-        location: {
+        location: PropTypes.shape ({
           provided: PropTypes.string,
           lat: PropTypes.number,
           long: PropTypes.number,
-        },
+        }),
         createdAt: PropTypes.string,
         updatedAt: PropTypes.string,
-        events: {
+        events: PropTypes.shape({
           workflowDispatch: PropTypes.number,
-        },
-      },
+        }),
+      }),
       event: PropTypes.string,
       _id: PropTypes.string,
       createdAt: PropTypes.string,
