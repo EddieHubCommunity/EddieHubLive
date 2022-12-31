@@ -14,7 +14,9 @@ function App() {
     socket.emit("github-event");
     socket.on("events/github", (data) => {
       if (ignoreEvents.includes(data.event)) return;
+      if (!events.find((event) => event._id === data._id)) {
         setEvents([...events,data]); 
+      }
       if (!uniqueUsers.find((user) => user.githubUsername._id === data.githubUsername._id)) {
         setUniqueUsers([...uniqueUsers, data]);
       }
