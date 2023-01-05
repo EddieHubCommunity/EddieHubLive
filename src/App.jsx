@@ -24,10 +24,10 @@ function App() {
   }, [events]);
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex h-screen flex-col">
       <Header />
-      <main className="flex">
-        <div className="flex h-screen w-1/3 flex-col gap-2 overflow-y-scroll p-2">
+      <main className="flex grow">
+        <div className="flex w-1/3 flex-col gap-2 overflow-y-scroll p-2">
           {events.map((event) => (
             <EventCard key={event._id} data={event} />
           ))}
