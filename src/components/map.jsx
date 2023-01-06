@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 function Map({ events }) {
   return (
     <MapContainer
-      style={{ height: "100vh", zIndex: 10 }}
+      style={{ height: "100%", zIndex: 10 }}
       center={[51.505, -0.09]}
       zoom={3}
       zoomControl={true}
