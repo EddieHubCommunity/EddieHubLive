@@ -8,7 +8,6 @@ import PanToMarker from "./zoom-to-marker";
 import PropTypes from "prop-types";
 
 function Map({ events }) {
-  console.log(events);
   return (
     <MapContainer
       style={{ height: "100%", zIndex: 10 }}
