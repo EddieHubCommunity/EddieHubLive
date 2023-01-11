@@ -8,6 +8,7 @@ import PanToMarker from "./zoom-to-marker";
 import PropTypes from "prop-types";
 
 function Map({ events }) {
+  console.log(events);
   return (
     <MapContainer
       style={{ height: "100%", zIndex: 10 }}
@@ -34,7 +35,13 @@ function Map({ events }) {
             position={[event.githubUsername.location.lat, event.githubUsername.location.long]}
           >
             <Popup>
-              {event.githubUsername._id}: {event.event}
+              <div className="flex flex-col gap-[5px]">
+                <h1 className="font-[600]">{event.githubUsername._id}</h1>
+                <span>Location - {event.githubUsername.location.provided}</span>
+                <span>Repo - {event.repoName}</span>
+                <span>Event Peformed - {event.event}</span>
+                <span>Issue comments - {event.githubUsername.events.issueComment}</span>
+              </div>
             </Popup>
           </Marker>
           <PanToMarker
