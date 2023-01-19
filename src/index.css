@@ -19,6 +19,11 @@ code {
     --off-white: #faf9f6;
   }
 
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-primary) var(--off-white);
+  }
+
   *::-webkit-scrollbar {
     width: 15px;
   }
