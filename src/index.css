@@ -23,10 +23,6 @@ code {
     width: 15px;
   }
 
-  *::-webkit-scrollbar-track {
-    background: var(--off-white);
-  }
-
   *::-webkit-scrollbar-thumb {
     background-color: var(--color-primary);
     border-radius: 15px;
