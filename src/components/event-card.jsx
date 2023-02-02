@@ -1,20 +1,21 @@
 import React from "react";
 import FormatTime from "./convert-time";
 import PropTypes from "prop-types";
+// import ".././styles/event-card.css";
 
 function EventCard({ data }) {
   return (
     <div key={data.event._id} className="flex w-full flex-col rounded-lg border-l-8  border-primary bg-white p-4 shadow-lg">
       <div className="flex justify-end">{FormatTime(data.updatedAt)}</div>
-      <div className="flex justify-between font-semibold">
-        <div className="rounded-full">
+      <div className="flex justify-between font-semibold  xs:flex-col">
+        <div className="rounded-full break-all md:break-normal">
           <a rel="noreferrer" target="_blank" href={data.githubUserURL}>
             {data.githubUsername._id}
           </a>
         </div>
         <div>{data.githubUsername.location.provided}</div>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between xs:flex-col break-all md:break-normal">
         <div>{data.event}</div>
         <div>
           <a rel="noreferrer" target="_blank" href={data.repoURL}>
