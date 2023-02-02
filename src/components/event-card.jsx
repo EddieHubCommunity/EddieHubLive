@@ -1,7 +1,6 @@
 import React from "react";
 import FormatTime from "./convert-time";
 import PropTypes from "prop-types";
-// import ".././styles/event-card.css";
 
 function EventCard({ data }) {
   return (
