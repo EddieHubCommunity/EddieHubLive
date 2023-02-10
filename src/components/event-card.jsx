@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 
 function EventCard({ data }) {
   return (
-    <div key={data.event._id} className="flex w-full flex-col rounded-lg border-l-8  border-primary bg-white p-4 shadow-lg">
-      <div className="flex justify-end">{FormatTime(data.updatedAt)}</div>
+    <div key={data.event._id} className="flex w-full flex-col rounded-lg border-l-8 border-primary bg-white p-4 shadow-lg">
+      <div className="flex justify-end ">{FormatTime(data.updatedAt)}</div>
       <div className="flex justify-between font-semibold  xs:flex-col">
         <div className="rounded-full break-all md:break-normal">
           <a rel="noreferrer" target="_blank" href={data.githubUserURL}>
