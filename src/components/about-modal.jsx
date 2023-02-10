@@ -46,7 +46,7 @@ export default function OpenModal() {
                       className="sm:block rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-indigo-500 focus:ring-offset-2"
                       onClick={() => setOpen(false)}
                     >
-                      <span className="sr-only" onClick={()=>setOpen(false)}>Close</span>
+                      <span className="sr-only">Close</span>
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
