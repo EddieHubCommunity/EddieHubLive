@@ -27,7 +27,7 @@ function App() {
     <div className="flex h-screen flex-col">
       <Header />
       <main className="flex grow overflow-hidden">
-        <div className="flex w-1/3 flex-col gap-2 overflow-y-auto p-2 mt-10">
+        <div className="flex w-1/3 flex-col gap-2 overflow-y-auto p-2 mt-8">
           {events.map((event) => (
             <EventCard key={event._id} data={event} />
           ))}
