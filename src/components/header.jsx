@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <nav className="bg-gray-800">
       <div className="mx-auto max-w-7xl">
-        <div className="h-16 flex md:items-center justify-between md:space-x-5">
+        <div className="flex h-16 justify-between md:items-center md:space-x-5">
           <div className="flex items-center space-x-5">
             <div className="flex-shrink-0">
               <div className="relative">
@@ -20,7 +20,7 @@ export default function Header() {
               </p>
             </div>
           </div>
-          <div className="justify-stretch mt-6 xs:my-auto flex flex-col-reverse space-y-4 space-y-reverse sm:flex-row-reverse sm:justify-end sm:space-y-0 sm:space-x-3 sm:space-x-reverse md:mt-0 md:flex-row md:space-x-3">
+          <div className="justify-stretch xs:my-auto">
             <OpenModal />
           </div>
         </div>
