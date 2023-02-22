@@ -21,7 +21,7 @@ function Map({ events }) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <MarkerCluster>
-      {events.map((event) => (
+      {events.filter(event => event.githubUsername.location).map((event) => (
         <div key={event._id}>
           <Marker
             icon={L.icon({
