@@ -12,7 +12,7 @@ function EventCard({ data }) {
             {data.githubUsername._id}
           </a>
         </div>
-        <div>{data.githubUsername.location.provided}</div>
+        <div>{data.githubUsername.location && data.githubUsername.location.provided}</div>
       </div>
       <div className="flex justify-between xs:flex-col break-all md:break-normal">
         <div>{data.event}</div>
